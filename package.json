@@ -2,7 +2,26 @@
   "name": "eazydb",
   "version": "0.1.0",
   "main": "lib/eazydb.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Finkes/eazydb.git"
+  },
+  "keywords": [
+    "database",
+    "file-based"
+  ],
+  "author": "Dominik Finkbeiner <finkes93@gmail.com> (http://dfinkbeiner.de/)",
   "dependencies": {
     "node-uuid": "^1.4.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Finkes/eazydb/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jasmine-node": "^0.3.1"
   }
 }
